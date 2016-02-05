@@ -12,7 +12,7 @@ TW should have the following directory structure
  - tiddlywiki.com/languages/ ... todo landing page ... autocreated by github from branch `gh-pages`
  - tiddlywiki.com/languages/de-DE ... german Germany ... will be curated by @pmario
  - tiddlywiki.com/languages/de-AT ... german Austria ... will be curated by @pmario
- - tiddlywiki.com/languages/de-DE ... german Swizerland ... will be curated by (pmario) help wanted !!
+ - tiddlywiki.com/languages/de-CH ... german Swizerland ... will be curated by (pmario) help wanted !!
  - tiddlywiki.com/languages/de-FR ... frensh France ... curated by @xcazin
  - tiddlywiki.com/languages/de-zh-Hans ... chinese simplified ... curated by @BramChen
  - tiddlywiki.com/languages/de-zh-Hant ... chinese traditional ... curated by @BramChen
