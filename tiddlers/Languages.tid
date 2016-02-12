@@ -1,0 +1,12 @@
+created: 20160211171820176
+href: [ext[http://tiddlywiki.com/languages]]
+modified: 20160211172418386
+tags: nav-global
+title: Languages
+type: text/vnd.tiddlywiki
+
+```
+link to: {{!!href}}
+```
+
+link to relative link: {{!!href}}

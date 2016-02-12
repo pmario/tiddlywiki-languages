@@ -17,6 +17,10 @@ TW should have the following directory structure
  - tiddlywiki.com/languages/de-zh-Hans ... chinese simplified ... curated by @BramChen
  - tiddlywiki.com/languages/de-zh-Hant ... chinese traditional ... curated by @BramChen
 
+## Important
+
+Those language pages can only be seen if you select the "gh-pages" branch: https://github.com/TiddlyWiki/languages/tree/gh-pages 
+
 ## Contributing 
 
 see: https://github.com/Jermolene/TiddlyWiki5/blob/master/contributing.md

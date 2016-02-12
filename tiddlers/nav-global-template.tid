@@ -1,0 +1,20 @@
+created: 20160211171459845
+modified: 20160211172709387
+tags: template
+title: nav-global-template
+type: text/vnd.tiddlywiki
+
+```
+<nav ..... role="navigation"></nav>
+
+
+<$list filter="[tag[nav-global]]" />
+
+```
+
+<$list filter="[tag[nav-global]]" />
+
+
+todo: 
+
+* wrapper and CSS for horizontal list
