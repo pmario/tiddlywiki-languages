@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "4.1"
+install:
+  - npm install
+script: npm run deploy
+env:
+  global:
+  - GH_REF: github.com/TiddlyWiki/languages.git
+  

@@ -1,0 +1,22 @@
+{
+	"tiddlers": [
+		{
+			"file": "../../../external/images/de-AT/icon.tid",
+			"isTiddlerFile": true,
+			"fields": {
+				"title": "Language Icon: de-AT",
+				"language": "de-AT",
+				"tags": "Language Icon"
+			}
+		},
+		{
+			"file": "../../../external/images/de-DE/icon.tid",
+			"isTiddlerFile": true,
+			"fields": {
+				"title": "Language Icon: de-DE",
+				"language": "de-DE",
+				"tags": "Language Icon"
+			}
+		}
+	]
+}

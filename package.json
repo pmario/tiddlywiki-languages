@@ -1,0 +1,30 @@
+{
+  "name": "languages",
+  "version": "0.0.1",
+  "description": "TiddlyWiki landing page for language sepcific documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "tiddlywiki test-server --server",
+    "build": "tiddlywiki --output output --build index", 
+    "deploy": "npm run build && bash ./deploy-gh-pages.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiddlyWiki/languages.git"
+  },
+  "keywords": [
+    "tiddlywiki",
+    "language",
+    "documentation",
+    "doc"
+  ],
+  "author": "mario pietsch",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/TiddlyWiki/languages/issues"
+  },
+  "homepage": "https://github.com/TiddlyWiki/languages#readme",
+  "dependencies": {
+    "tiddlywiki": "^5.1.11"
+  }
+}

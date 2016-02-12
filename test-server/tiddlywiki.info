@@ -1,0 +1,20 @@
+{
+	"description": "TiddlyWiki landing page for language sepcific documentation",
+	"plugins": [
+		"tiddlywiki/tiddlyweb",
+		"tiddlywiki/filesystem"
+	],
+	"themes": [
+		"tiddlywiki/vanilla"
+	],
+	"languages": [
+		"en-GB"
+	],
+	"includeWikis": [
+		"../"
+	],
+	"config": {
+		"default-tiddler-location": "../tiddlers"
+	}
+
+}
