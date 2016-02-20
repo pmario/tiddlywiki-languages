@@ -1,0 +1,7 @@
+created: 20160215170914426
+modified: 20160215170929090
+title: template/blog-button
+
+<li class="nav-item">
+	<a class="pure-button" href="{{!!href}}">{{!!title}}</a>
+</li>

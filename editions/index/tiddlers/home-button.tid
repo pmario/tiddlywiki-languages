@@ -1,0 +1,7 @@
+created: 20160215182731484
+modified: 20160215183747847
+tags: active blog-nav
+title: home-button
+type: text/vnd.tiddlywiki
+
+<a class="pure-button" href="http://tiddlywiki.com" >Home</a>

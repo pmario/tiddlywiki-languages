@@ -1,0 +1,38 @@
+created: 20160215143026080
+modified: 20160216144759651
+title: marketing/templates/blog-static.html
+type: text/vnd.tiddlywiki-html
+
+\define tv-wikilink-template() static/$uri_doubleencoded$.html
+\define tv-config-toolbar-icons() no
+\define tv-config-toolbar-text() no
+\define tv-config-toolbar-class() tc-btn-invisible
+\rules only filteredtranscludeinline transcludeinline 
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+<title>{{$:/core/wiki/title}}</title>
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+<!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+<!--<![endif]-->
+<!--[if lte IE 8]>
+	<link rel="stylesheet" href="css/layouts/blog-old-ie.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+	<link rel="stylesheet" href="css/layouts/blog.css">
+<!--<![endif]-->
+</head>
+<body>
+{{marketing/templates/blog-layout||$:/core/templates/html-tiddler}}
+<!-- In your HTML file -->  
+<script src="//localhost:9091"></script>  
+</body>
+</html>

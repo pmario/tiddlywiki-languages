@@ -1,0 +1,11 @@
+title: $:/themes/tiddlywiki/landingpage/base
+tags: [[$:/tags/Stylesheet]]
+
+\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline macrocallblock
+
+/*
+** Start with the normalize CSS reset, and then belay some of its effects
+*/
+
+{{$:/themes/tiddlywiki/landingpage/reset}}
+
