@@ -5,13 +5,13 @@ output_dir="editions/index/output"
 
 # clear and re-create the out directory
 rm -rf $output || exit 0;
-mkdir $output;
+mkdir $output_dir;
 
 # run our compile script, discussed above
 npm run build
 
 # go to the out directory and create a *new* Git repo
-cd $output
+cd $output_dir
 git init
 
 # inside this git repo we'll pretend to be a new user
