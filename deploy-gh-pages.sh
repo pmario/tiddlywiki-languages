@@ -4,7 +4,7 @@ set -e # exit with nonzero exit code if anything fails
 output_dir="editions/index/output"
 
 # clear and re-create the out directory
-rm -rf $output || exit 0;
+rm -rf $output_dir || exit 0;
 mkdir $output_dir;
 
 # run our compile script, discussed above
