@@ -1,0 +1,7 @@
+created: 20160215183504871
+modified: 20160215183549949
+tags: 
+title: pure button helper
+type: text/vnd.tiddlywiki
+
+<a class="pure-button" href=<<currentTiddler>> ><<currentTiddler>></a>

@@ -5,16 +5,17 @@
 		"tiddlywiki/filesystem"
 	],
 	"themes": [
-		"tiddlywiki/vanilla"
+		"tiddlywiki/vanilla",
+		"tiddlywiki/landingpage"
 	],
 	"languages": [
 		"en-GB"
 	],
 	"includeWikis": [
-		"../"
+		"../index"
 	],
 	"config": {
-		"default-tiddler-location": "../tiddlers"
+		"default-tiddler-location": "../index/tiddlers"
 	}
 
 }

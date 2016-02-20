@@ -1,0 +1,8 @@
+{
+	"title": "$:/themes/tiddlywiki/landingpage",
+	"name": "Landingpage",
+	"author": "MarioPietsch",
+	"core-version": ">=5.0.0",
+	"plugin-type": "theme",
+	"description": "Marketing basic theme, based on Vanilla and purecss.io"
+}

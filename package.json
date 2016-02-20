@@ -1,12 +1,19 @@
 {
   "name": "languages",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "TiddlyWiki landing page for language sepcific documentation",
   "main": "index.js",
   "scripts": {
-    "test": "tiddlywiki test-server --server",
-    "build": "tiddlywiki --output output --build index", 
-    "deploy": "npm run build && bash ./deploy-gh-pages.sh"
+    "static": "node static.js",
+    "dev-server": "parallelshell \"npm start\" \"npm run livereload\" \"npm run watch\" \"npm run static\" ",
+    "start": "tiddlywiki editions/test-server --server",
+    "watch": "watch \"npm run build\" editions/index/tiddlers/",
+    "test": "echo ---- no tests atm ----",
+    "prebuild": "echo --- have a look at tiddlywiki.info, to see what will be created! ---",
+    "build": "tiddlywiki editions/index --build static",
+    "predeploy": "npm run build",
+    "deploy": "bash ./deploy-gh-pages.sh",
+    "livereload": "live-reload --port 9091 editions/index/output/"
   },
   "repository": {
     "type": "git",
@@ -26,5 +33,12 @@
   "homepage": "https://github.com/TiddlyWiki/languages#readme",
   "dependencies": {
     "tiddlywiki": "^5.1.11"
+  },
+  "devDependencies": {
+    "rimraf": "latest",
+    "watch": "latest",
+    "live-reload": "latest",
+    "parallelshell": "latest"
   }
+
 }

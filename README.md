@@ -3,7 +3,7 @@
 This repo is for test purposes only. ... So don't use it ATM!!
 
 # Languages
-This repo contains the landing page for language specific TW documentation, that's independent to the core version.
+This repo contains the landing page for language specific TW documentation. Releases are independent to the core release cycle.
 
 ## Structure
 
@@ -21,9 +21,24 @@ TW should have the following directory structure
 
 Those language pages can only be seen if you select the "gh-pages" branch: https://github.com/TiddlyWiki/languages/tree/gh-pages 
 
-## Contributing 
+## Rules for Contributing 
 
 see: https://github.com/Jermolene/TiddlyWiki5/blob/master/contributing.md
+
+## Contribute to Languages Repo
+
+ - Fork this repo
+
+```
+git clone ..... 
+
+git checkout -b <your feature branch here>
+git add .
+git commit -m "some useful text here"
+git push origin <your feature branch here>
+
+# create a pull request
+```
 
 ## Licenses
 
