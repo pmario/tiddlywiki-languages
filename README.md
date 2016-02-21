@@ -45,4 +45,3 @@ git push origin <your feature branch here>
 see: https://github.com/Jermolene/TiddlyWiki5/tree/master/licenses
 
 Important for documentation see: https://github.com/Jermolene/TiddlyWiki5/blob/master/licenses/cla-individual.md#23-outbound-license
-
