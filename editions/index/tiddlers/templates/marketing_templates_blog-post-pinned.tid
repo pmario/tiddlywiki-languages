@@ -1,5 +1,5 @@
 created: 20160220111717156
-modified: 20160222135202577
+modified: 20160223155531514
 title: marketing/templates/blog-post-pinned
 type: text/vnd.tiddlywiki
 
@@ -10,7 +10,6 @@ type: text/vnd.tiddlywiki
 	<$list filter="[tag[blog-post]tag[active]tag[pinned]]">
 		<section class="post">
 			<header class="post-header">
-				<img class="post-avatar" alt="many-flags" height="48" width="48" src="img/common/tilo-avatar.png">
 				<h2 class="post-title">{{!!title}}</h2>
 				<p class="post-meta">
 					By <a href="#" class="post-author">{{!!creator}}</a> under <a class="post-category post-category-design" href="#">{{!!tags}}</a>

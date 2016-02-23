@@ -1,19 +1,22 @@
 created: 20160215173023168
 creator: pmario
-modified: 20160222153002397
+modified: 20160223181628749
 modifier: pmario
 tags: active blog-post pinned
 title: Your Help Needed
 type: text/vnd.tiddlywiki
 
+!!! Native Documentations
+
+{{NativeGallery}}
+
 !!! ~TiddlyWiki multi language documentation
 
 The ~TiddlyWiki Language Documentation Project is a community effort, to make the content from tiddlywiki.com accessable in your native language. ... At least most of it :)
 
-This is an ongoing process, so it will need some time and especially ''your help!''
+This is an ongoing process, so it will need some time and especially ''your help!'' The list above should be as long, as the list below ;)
 
 !!! Core Languages
 
-
-!!! Native Documentations
+{{LanguageGallery}}
 

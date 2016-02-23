@@ -1,13 +1,13 @@
-created: 20160222150932771
+created: 20160223152943995
 language: ja-JP
-modified: 20160222151237481
+modified: 20160223152943995
 tags: Language Icon
 title: Language Icon: ja-JP
 type: image/svg+xml
 
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="90" height="60">
-<rect fill="#a0a0a0" width="90" height="60"/>
-<rect fill="#fff" x="1" y="1" width="88" height="58"/>
-<circle fill="#be0026" cx="45" cy="30" r="18"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600">
+<rect fill="#a0a0a0" height="600" width="900"/>
+<rect fill="#fff" x="6" y="6" width="888" height="588"/>
+<circle fill="#be0026" cx="450" cy="300" r="180"/>
 </svg>

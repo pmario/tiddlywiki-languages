@@ -1,6 +1,6 @@
-created: 20160222150501457
+created: 20160223152943929
 language: it-IT
-modified: 20160222150505369
+modified: 20160223152943929
 tags: Language Icon
 title: Language Icon: it-IT
 type: image/svg+xml
@@ -8,8 +8,8 @@ type: image/svg+xml
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg 
-	height="100" 
-	width="150" 
+	height="1000" 
+	width="1500" 
 	version="1.1" 
 	viewBox="0 0 3 2" 
 	xmlns="http://www.w3.org/2000/svg" 

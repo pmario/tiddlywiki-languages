@@ -1,12 +1,12 @@
 {
   "name": "languages",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "TiddlyWiki landing page for language sepcific documentation",
   "main": "index.js",
   "scripts": {
-    "static": "node static.js",
-    "dev-server": "parallelshell \"npm start\" \"npm run livereload\" \"npm run watch\" \"npm run static\" ",
+    "dev": "parallelshell \"npm start\" \"npm run livereload\" \"npm run watch\" \"npm run static\" ",
     "start": "tiddlywiki editions/test-server --server",
+    "static": "node static.js",
     "watch": "watch \"npm run build\" editions/index/tiddlers/",
     "test": "echo ---- no tests atm ----",
     "prebuild": "echo --- have a look at tiddlywiki.info, to see what will be created! ---",
@@ -25,7 +25,7 @@
     "documentation",
     "doc"
   ],
-  "author": "mario pietsch",
+  "author": "Mario Pietsch",
   "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/TiddlyWiki/languages/issues"
@@ -38,7 +38,8 @@
     "rimraf": "latest",
     "watch": "latest",
     "live-reload": "latest",
-    "parallelshell": "latest"
+    "parallelshell": "latest",
+	"express":"latest"
   }
 
 }

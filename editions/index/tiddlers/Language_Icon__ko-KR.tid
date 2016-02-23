@@ -1,12 +1,12 @@
-created: 20160222151250969
+created: 20160223152943993
 language: ko-KR
-modified: 20160222151257364
+modified: 20160223152943993
 tags: Language Icon
 title: Language Icon: ko-KR
 type: image/svg+xml
 
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="60" viewBox="-36 -24 72 48">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="600" viewBox="-36 -24 72 48">
 <title>Flag of South Korea</title>
 <rect fill="#fff" x="-36" y="-24" width="72" height="48"/>
 <g transform="rotate(-56.3099325)"><!--arctan(-3/2)-->

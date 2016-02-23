@@ -1,12 +1,12 @@
-created: 20160222151349689
+created: 20160223152943975
 language: ru-RU
-modified: 20160222151355229
+modified: 20160223152943975
 tags: Language Icon
 title: Language Icon: ru-RU
 type: image/svg+xml
 
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 6" width="90" height="60">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 6" width="900" height="600">
 <rect width="9" height="6" fill="#D52B1E"/>
 <rect width="9" height="4" fill="#0039A6"/>
 <rect width="9" height="2" fill="#FFF"/>

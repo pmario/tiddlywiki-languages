@@ -1,5 +1,6 @@
 created: 20160222135700853
-modified: 20160222140054622
+modified: 20160223181906761
+tags: css
 title: marketing/static.css
 type: text/vnd.tiddlywiki
 
@@ -101,6 +102,10 @@ h3 {
     font-size: 2em;
     color: #222;
     margin-bottom: 0.2em;
+}
+
+.post-avatar img {
+    width: 6em;
 }
 .post-avatar {
     border-radius: 50px;

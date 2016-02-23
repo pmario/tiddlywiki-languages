@@ -1,5 +1,5 @@
 created: 20160215173825926
-modified: 20160222143641197
+modified: 20160223180838988
 modifier: pmario
 title: marketing/templates/blog-post
 type: text/vnd.tiddlywiki
@@ -9,7 +9,8 @@ type: text/vnd.tiddlywiki
 	<h1 class="content-subhead">Select Your Language</h1>
 	<!-- A single blog post -->
 	<$list filter="[tag[blog-post]tag[active]random[100]] -[tag[pinned]]">
-		<section class="post">
+		<a name=<<currentTiddler>> />
+		<section  class="post">
 			<header class="post-header">
 				<span class="post-avatar" alt="icon"><$transclude tiddler={{!!icon}}/></span>
 				<h2 class="post-title">{{!!title}}</h2>
