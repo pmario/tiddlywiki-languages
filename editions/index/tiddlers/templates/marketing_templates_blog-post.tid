@@ -1,30 +1,26 @@
 created: 20160215173825926
-modified: 20160220111622849
+modified: 20160222143641197
 modifier: pmario
 title: marketing/templates/blog-post
 type: text/vnd.tiddlywiki
 
 <!-- A wrapper for all the blog posts -->
 <div class="posts">
-	<h1 class="content-subhead">Post TODO: make translateable!!</h1>
-
+	<h1 class="content-subhead">Select Your Language</h1>
 	<!-- A single blog post -->
-	
-	<$list filter="[tag[blog-post]tag[active]] -[tag[pinned]]">
-	
+	<$list filter="[tag[blog-post]tag[active]random[100]] -[tag[pinned]]">
 		<section class="post">
 			<header class="post-header">
 				<span class="post-avatar" alt="icon"><$transclude tiddler={{!!icon}}/></span>
-
 				<h2 class="post-title">{{!!title}}</h2>
-
 				<p class="post-meta">
 					By <a href="#" class="post-author">{{!!creator}}</a> under <a class="post-category post-category-design" href="#">{{!!tags}}</a>
 				</p>
 			</header>
-
 			<div class="post-description">
-				<$view />
+
+				{{!!text}}
+
 			</div>
 		</section>
 	</$list>

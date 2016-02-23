@@ -1,0 +1,13 @@
+created: 20160222145802648
+language: cs-CZ
+modified: 20160222145822852
+tags: Language Icon
+title: Language Icon: cs-CZ
+type: image/svg+xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="90" height="60">
+	<rect width="90" height="60" fill="#d7141a"/>
+	<rect width="90" height="30" fill="#fff"/>
+	<path d="M 45,30 0,0 V 60 z" fill="#11457e"/>
+</svg>

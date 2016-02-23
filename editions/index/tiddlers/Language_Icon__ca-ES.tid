@@ -1,0 +1,12 @@
+created: 20160222145559704
+language: ca-ES
+modified: 20160222145726436
+tags: Language Icon
+title: Language Icon: ca-ES
+type: image/svg+xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="54">
+<rect width="81" height="54" fill="#FCDD09"/>
+<path stroke="#DA121A" stroke-width="6" d="M0,9H81m0,12H0m0,12H81m0,12H0"/>
+</svg>
