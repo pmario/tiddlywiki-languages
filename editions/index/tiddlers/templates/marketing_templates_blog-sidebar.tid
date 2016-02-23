@@ -7,12 +7,11 @@ type: text/vnd.tiddlywiki
 	<div class="header">
 		<h1 class="brand-title">{{$:/SiteTitle}}</h1>
 		<h2 class="brand-tagline">{{$:/SiteSubtitle}}</h2>
-
 		<nav class="nav">
 			<ul class="nav-list">
 				<$list filter="[tag[blog-nav]tag[active]]" >
 					<li class="nav-item">
-						{{!!text}}
+						{{!!text||$:/core/templates/wikified-tiddler}}
 					</li>
 				</$list>
 			</ul>

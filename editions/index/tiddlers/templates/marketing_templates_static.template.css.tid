@@ -1,0 +1,10 @@
+created: 20160222133525331
+modified: 20160222133529348
+title: marketing/templates/static.template.css
+type: text/vnd.tiddlywiki
+
+\define sidebar-background()
+background: {{marketing/static/color-pallete!!background}};
+\end
+
+{{marketing/static.css||$:/core/templates/wikified-tiddler}}

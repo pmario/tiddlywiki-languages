@@ -1,10 +1,7 @@
-created: 20160215181517701
-github-deep-link: https://github.com/pmario/TiddlyWiki5/tree/master/languages/de-DE
-icon: Language Icon: de-DE
-modified: 20160222143413762
-tags: active blog-post
-test-link: http://tiddlywiki.com/languages/de-DE
-title: German - Germany
+created: 20160222143115885
+modified: 20160222143416105
+tags: 
+title: german-template-text
 type: text/vnd.tiddlywiki
 
 !!! ~TiddlyWiki - Deutsch
@@ -25,4 +22,3 @@ Dieses Project, wird hoffentlich immer in Bewegung bleiben, deshalb ist vor alle
 ** github: {{!!github-deep-link}}
 * forum: https://groups.google.com/forum/#!forum/tiddlywiki
 * chat: https://gitter.im/TiddlyWiki/public (sprache: je nach dem wer online ist :)
-

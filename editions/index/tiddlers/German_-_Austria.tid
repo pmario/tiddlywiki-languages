@@ -1,13 +1,30 @@
 created: 20160220110122286
+creator: pmario
+github-deep-link: https://github.com/pmario/TiddlyWiki5/tree/master/languages/de-AT
 icon: Language Icon: de-AT
-modified: 20160220113426886
+modified: 20160222143455689
+modifier: pmario
 tags: active blog-post
+test-link: http://tiddlywiki.com/languages/de-AT
 title: German - Austria
 type: text/vnd.tiddlywiki
 
-Diese Version wird von Mario Pietsch betreut. 
+!!! ~TiddlyWiki - Deutsch
 
-Hilfe wird gerne angenommen!
+Diese Version wird momentan von Mario Pietsch ([[pmario]]) betreut. 
 
-* Download at: http://tiddlywiki.com/languages/de-AT
-* Kontakt:
+* testen: {{!!test-link}}
+
+!!! ~TiddlyWiki in deiner Sprache!
+
+Das TiddlyWiki "Language Documentation Project" ist ein Gemeinschaftsprojekt, um den Inhalt der [[TiddlyWiki Hauptseite|http://tiddlywik.com]] für jeden in seiner Muttersprache verfügbar zu machen. ... Zumindest den größten Teil :)
+
+Dieses Project, wird hoffentlich immer in Bewegung bleiben, deshalb ist vor allem '' "Deine Mithilfe" wichtig!''
+
+!!! Wie kann ich helfen?
+
+* github - https://github.com/TiddlyWiki/languages
+** github: {{!!github-deep-link}}
+* forum: https://groups.google.com/forum/#!forum/tiddlywiki
+* chat: https://gitter.im/TiddlyWiki/public (sprache: je nach dem wer online ist :)
+
