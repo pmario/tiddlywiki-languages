@@ -6,6 +6,7 @@ Feedback very welcome!!
 
 # Major Goals
 
+ - Use a build / test robot to automatically create and deploy the static site
  - Create a project, that can be easily cloned and used
  - Create a simple interface to achieve the basic tasks
  - Use tiddlywiki.js as a static site generator
