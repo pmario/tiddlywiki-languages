@@ -1,11 +1,13 @@
 created: 20160215181517701
 github-deep-link: https://github.com/pmario/TiddlyWiki5/tree/master/languages/de-DE
 icon: Language Icon: de-DE
-modified: 20160222143413762
+modified: 20160223181750069
 tags: active blog-post
 test-link: http://tiddlywiki.com/languages/de-DE
-title: German - Germany
+title: German-Germany
 type: text/vnd.tiddlywiki
+
+ToDo: improve the list at the end
 
 !!! ~TiddlyWiki - Deutsch
 

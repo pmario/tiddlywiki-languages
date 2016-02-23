@@ -1,12 +1,12 @@
-created: 20160222151325736
+created: 20160223152943990
 language: nl-NL
-modified: 20160222151331951
+modified: 20160223152943990
 tags: Language Icon
 title: Language Icon: nl-NL
 type: image/svg+xml
 
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="90" height="60" viewBox="0 0 9 6">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 9 6">
 <rect fill="#21468B"	width="9" height="6"/>
 <rect fill="#FFF" width="9" height="4"/>
 <rect fill="#AE1C28"	width="9" height="2"/>

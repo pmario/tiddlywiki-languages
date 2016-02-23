@@ -52,7 +52,7 @@ git push origin <your feature branch here>
 
 ## Command Line Interface
 
-There is a (`package.json`)[https://github.com/TiddlyWiki/languages/blob/master/package.json] file, which creates several commands: 
+There is a [`package.json`](https://github.com/TiddlyWiki/languages/blob/master/package.json) file, which creates several commands: 
 
  - "dev": builds the static page version. 
    - starts a tiddlywiki server

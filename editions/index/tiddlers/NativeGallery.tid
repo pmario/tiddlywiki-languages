@@ -1,0 +1,32 @@
+created: 20160223154829970
+modified: 20160223181452640
+tags: nav
+title: NativeGallery
+type: text/vnd.tiddlywiki
+
+\define .dlink-ex(path, file)
+<a title=<<currentTiddler>> href="$path$$file$" >
+<$transclude tiddler={{!!icon}}/>
+</a>
+\end
+
+Select your language to go to the section.
+
+<style>
+.language-gallery a {
+    color: transparent;
+}
+.language-gallery img {
+width: 2em;
+height: auto;
+margin: 0.5em;
+-webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+</style>
+<p class="language-gallery">
+<$list filter="[all[tiddlers+shadows]tag[blog-post]tag[active]]">
+<$macrocall $name=".dlink-ex" path="#" file=<<currentTiddler>> />
+</$list>
+</p>
