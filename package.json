@@ -1,6 +1,6 @@
 {
   "name": "languages",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "TiddlyWiki landing page for language sepcific documentation",
   "main": "index.js",
   "scripts": {
